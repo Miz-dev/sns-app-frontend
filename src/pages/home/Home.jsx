@@ -1,16 +1,19 @@
-import { Timeline } from "@mui/icons-material";
 import React from "react";
+import "./Home.css"
 import Rightbar from "../../components/Rightbar/Rightbar";
-import Sidebar from "../../components/Topbar/Sidebar/Sidebar";
+import Sidebar from "../../components/Sidebar/Sidebar";
+import Timeline from "../../components/Timeline/Timeline";
 import Topbar from "../../components/Topbar/Topbar";
 
 export default function Home() {
 	return (
 		<>
 			<Topbar />
-			<Sidebar/>
-			<Timeline/>
-			<Rightbar/>
+			<div className="homeContainer">
+				<Sidebar/>
+				<Timeline/>
+				<Rightbar/>
+			</div>
 		</>
 	);
 }
