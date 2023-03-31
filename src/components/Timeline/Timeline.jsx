@@ -3,6 +3,9 @@ import "./TimeLine.css"
 
 export default function TimeLine() {
     return (
-        <div className='timeline'>Timeline</div>
+        <div className='timeline'>
+            <div className="timelineWrapper">
+            </div>
+        </div>
     )
 }
